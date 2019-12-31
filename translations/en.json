@@ -1,0 +1,9 @@
+{
+    "APP" : {
+    
+		"FORMAT_DATE_TIME_PRECISE" : "MM-dd-yyyy HH:mm:ss",
+    
+		"NAME" : "undo.is portal"		
+    }
+
+}
