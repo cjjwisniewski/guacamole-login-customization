@@ -1,23 +1,31 @@
 
 /* This is logo in the login box */
 .login-ui .login-dialog .logo {
-	width: 246px;
-	height: 143px;
+	width: 250px;
+	height: 100px;
 	background-size: auto;
 	-webkit-background-size: auto;
-    background-image:  url('app/ext/guac-customize/web/images/logo.png');
+    background-image: url('app/ext/guac-customize/web/images/logo.png');
+    background-repeat: none;
+}
 
+/* Modifications to the login box */
+
+.login-ui .login-fields .labeled-field input:focus {
+    background: #999999;
+}
+
+.login-ui div.login-dialog {
+    background: transparent;
+    border: none;
+    box-shadow: none;
 }
 
 /* This is the background for the entire page */
 div.login-ui {
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-image: url('app/ext/guac-customize/web/images/background.png');
-}
-
-.login-ui div.login-dialog {
-    background: transparent;
 }
 
 .login-ui .login-fields .labeled-field {
@@ -26,7 +34,7 @@ div.login-ui {
 
 /* Fixes the font size so the welcome text fits on one line*/
 .login-ui .login-dialog .version {
-	font-size: 1.0em;
+    display: none;    
 }
 
 /* This removes the Guacamole {Version} from the login box
