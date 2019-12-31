@@ -2,10 +2,10 @@
 
     "guacamoleVersion" : "*",
 	
-	"name"      : "Login Page Customize Extension",
+	"name"      : "Guacamole Login Customization",
     "namespace" : "guac-customize",
-    "smallIcon" : "web/images/logo-64.png",
-	"largeIcon"	: "web/images/logo-144.png",
+    "smallIcon" : "web/images/undo-64.png",
+	"largeIcon"	: "web/images/undo-144.png",
 
     "css" : ["web/custom.css"],
 
@@ -14,8 +14,8 @@
     "resources" : {
 		"web/images/background.png" : "image/png",
         "web/images/logo.png" : "image/png",
-        "web/images/logo-64.png" : "image/png",
-        "web/images/logo-144.png" : "image/png"
+        "web/images/undo-64.png" : "image/png",
+        "web/images/undo-144.png" : "image/png"
     }
 
 }

@@ -11,6 +11,8 @@
 
 /* This is the background for the entire page */
 div.login-ui {
+    background-repeat: no-repeat;
+    background-size: auto;
     background-image: url('app/ext/guac-customize/web/images/background.png');
 }
 
